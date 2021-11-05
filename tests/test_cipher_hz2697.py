@@ -1,5 +1,4 @@
 from cipher_hz2697 import cipher_hz2697
-import pytest
 
 def test_cipher():
     result = cipher_hz2697.cipher('love', shift = 1, encrypt = True)
